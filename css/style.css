@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+.intro-image{
+    background-attachment: fixed;
+    background-image: url('../img/coffee1.jpeg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image-link a{
+    background-color: #c0ab916c;
+    border: 2px solid #5e2b19;
+    color: #5e2b19;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out ;
+    
+}
+.intro-image-link a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text{
+    background-color: #c0ab916c;
+    color: #83807b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+}
+.intro-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.quality-image{
+    background-attachment: fixed;
+    background-image: url('../img/coffee2.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.quality-image-link a{
+    background-color: #49796a76;
+    border: 2px solid #00604c;
+    color: #00604d;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out ;
+}
+
+.quality-image-link a:hover{
+    transform: scale(1.1);
+}
+
+.quality-text{
+    background-color: #b78591;
+    color: #2b402bb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+
+}
+
+.quality-text-textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    background-color:#00604c;
+    color: #b78591;
+    height: 150px;
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0.5rem;
+}
+.footer ul li a{
+    color:#b78591;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color:#b78591;
+    display: inline-block;
+    transform: scale(1.2);
+}
+.origin-image{
+    background-attachment: fixed;
+    background-image: url('../img/coffee3.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image-link a{
+    background-color: #262b0b51;
+    border: 2px solid #8e7749;
+    color: #dfcfc6;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    transition: all 1.5s ease-in-out ;
+}
+
+.origin-image-link a:hover{
+    transform: scale(1.1);
+}
+
+.origin-image-text{
+    background-color: #e97e87c4;
+    color: #262b0bfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+}
+
+.origin-image-textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image-textbox p{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
